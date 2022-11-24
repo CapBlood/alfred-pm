@@ -7,6 +7,8 @@ Alfred Project Manager allow you to open your projects very easily.
 pm <name_of_folder_with_project>
 ```
 
+![Alt Text](examples/Example.gif)
+
 **Note:** Opening files in fullscreen mode requires to hold command button.
 
 ## Installation
