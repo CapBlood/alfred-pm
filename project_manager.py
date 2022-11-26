@@ -12,7 +12,7 @@ def get_projects(wf):
     projects_list = set(os.listdir(PROJECT_DIR))
     if project_name is not None:
         projects_list = set(filter(
-            lambda name: name.startswith(project_name),
+            lambda name: project_name in name,
             projects_list))
 
         if project_name not in projects_list:
